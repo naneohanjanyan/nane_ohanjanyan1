@@ -160,15 +160,21 @@ class Tree {
     curr = temp->right;
     Node *previous;
     if (curr != nullptr) {
-      previous = temp;
-      while (curr->left) {
-        previous = curr;
-        curr = curr->left;
-      }
-      temp->date = curr->date;
-      previous->left = curr->right;
+      if (curr->right->left == nullptr) {
+        temp->date = curr->date;
+        temp->right = curr->right;
+        delete curr;
+      } else {
+        previous = temp;
+        while (curr->left) {
+          previous = curr;
+          curr = curr->left;
+        }
+        temp->date = curr->date;
+        previous->left = curr->right;
 
-      delete curr;
+        delete curr;
+      }
     } else {
       previous = searchPreviousDate(a);
       previous->left = temp->left;
@@ -189,7 +195,7 @@ int main() {
   a1.insertNode(449);
   a1.insertNode(499);
   a1.insertNode(11);
-  // a1.insertNode(10);
+  a1.insertNode(12);
   a1.insertNode(442);
   // a1.insertNode(443);
   a1.insertNode(1);
