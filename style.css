@@ -1,11 +1,12 @@
-body{
+body {
     background-color: #d0e3e3;
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
     /* max-height: 100%; */
 }
-.container{
+
+.container {
     /* border: solid 0.5px black; */
     height: 1000px;
     position: absolute;
@@ -14,25 +15,30 @@ body{
     top: 2%;
     max-height: 100%;
 }
-.image img{
+
+.image img {
     width: 200px;
     height: 200px;
     border-radius: 20px;
     box-shadow: 5px 5px 15px 0px #888;
 }
-.image{
+
+.image {
     display: inline-block;
     margin-top: 0px;
 }
-.info{
+
+.info {
     display: inline-block;
     position: absolute;
     padding-left: 22px;
 }
-.information{
+
+.information {
     font-size: 18px;
     margin: 0 0px 0px 0px;
 }
+
 h5.name {
     margin: 0px 0px 0;
     font-size: 50px;
@@ -44,26 +50,31 @@ h6 {
     padding: 10px 0px;
     font-size: 16px;
 }
+
 section.my_hobbies {
     background-color: white;
     border-radius: 15px;
     position: relative;
     width: 100%;
-    height: 20%;
+    height: 26%;
     padding-top: 0;
     margin-top: 20px;
 }
+
 .hobbies_div {
     position: absolute;
     top: 10%;
     left: 2%;
 }
 
-ol.hobbis_list {padding-inline-start: 15px;}
+ol.hobbis_list {
+    padding-inline-start: 15px;
+}
 
 li {
     padding: 2px 0px;
 }
+
 th {
     text-align: left;
     padding-bottom: 7px;
@@ -73,18 +84,19 @@ h2 {
     margin: 0;
     padding-bottom: 10px;
 }
+
 .work_exp_div {
     position: relative;
     left: 2%;
     top: 5%;
 }
+
 h3.portfolio_name {
     margin: 0 0 18px 0;
 }
 
-.work_exp_div > p {
+.work_exp_div>p {
     margin: 10px 0
-    
 }
 
 hr {
@@ -92,7 +104,9 @@ hr {
     padding-left: 0;
     margin-left: 0;
 }
-input[type=text], input[type=email] {
+
+input[type=text],
+input[type=email] {
     width: 36%;
     padding: 15px;
     margin: 5px 0 22px 0;
@@ -100,19 +114,22 @@ input[type=text], input[type=email] {
     border: none;
     border-bottom: 2px solid #94b5b5;
     background: #d0e3e3;
-  }
+}
+
 .input_name_email {
     display: inline;
 }
 
 .input_div>label {
-    display:block
+    display: block
 }
-.input_name_email > div{
+
+.input_name_email>div {
     display: inline;
     /* border-bottom: 1px solid #a6bbbb; */
     padding-bottom: 27px;
 }
+
 h1 {
     text-align: center;
 }
@@ -125,7 +142,8 @@ button.registerbtn {
     background-color: black;
     border: none;
 }
-button.registerbtn:hover{
+
+button.registerbtn:hover {
     margin: 7px 0 30px 0;
     width: 90px;
     height: 38px;
@@ -133,6 +151,7 @@ button.registerbtn:hover{
     background-color: rgb(27, 26, 26);
     border: none;
 }
+
 textarea#message {
     display: block;
     background-color: #d0e3e3;
@@ -140,10 +159,18 @@ textarea#message {
     border: none;
     border-bottom: 2px solid #a6bbbb;
 }
-td{
+
+td {
     color: #757575;
 }
-input[type=text]:focus, input[type=email]:focus ,textarea[type = textarea] {
+
+input[type=text]:focus,
+input[type=email]:focus,
+textarea[type=textarea] {
     background-color: #ddd;
     outline: none;
-  }
+}
+
+b {
+    margin: 0px 438px 0px 0px;
+}
