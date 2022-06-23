@@ -1,0 +1,30 @@
+div#title {
+  display: flex;
+  justify-content: space-around;
+  width: 70vw;
+  margin: 0;
+  padding: 0;
+  margin-top: 8px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  height: 60vh;
+  width: 60vw;
+  border: 2px solid;
+}
+
+button#again {
+  width: 60px;
+  height: 48px;
+}
+
+.style {
+  border: 2px solid;
+  width: 45vw;
+  height: 4vh;
+  margin: 50px 130px;
+  text-align: center;
+  font-size: 25px;
+}
