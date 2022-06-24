@@ -1,0 +1,106 @@
+.content {
+  margin: 0 20px;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+header {
+  background: linear-gradient(0deg, #dddddd, #dddddd),
+    linear-gradient(0deg, #f7f7f7, #f7f7f7);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 60px;
+  margin-right: 35px;
+}
+
+h3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 100%;
+  display: flex;
+  align-items: center;
+
+  color: rgba(21, 37, 54, 0.8);
+}
+.name {
+  display: flex;
+  justify-content: space-around;
+  width: 240px;
+  align-items: center;
+}
+
+.name > p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 36px;
+  color: #68717a;
+}
+
+.squaresStyle {
+  width: 150px;
+  height: 150px;
+  border: 3px solid;
+  background: white;
+}
+
+.squares {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(3, 150px);
+  grid-template-rows: repeat(3, 150px);
+}
+
+.mainDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.startTime {
+  background: #f7f7f7;
+  border: 1px solid #d9d9d9;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 25vw;
+  margin: 0px 0 49px 0px;
+}
+
+button.startBtn {
+  width: 160px;
+  height: 75px;
+  background: #28a745;
+  border-radius: 4px;
+  font-family: "Inter";
+  font-style: normal;
+  color: #ffffff;
+  font-size: 30px;
+  margin-left: 10px;
+}
+
+p.timer {
+  margin-right: 15px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 36px;
+  color: #152536;
+}

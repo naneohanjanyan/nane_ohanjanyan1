@@ -1,0 +1,121 @@
+.content {
+  margin: 0 20px;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+header {
+  background: linear-gradient(0deg, #dddddd, #dddddd),
+    linear-gradient(0deg, #f7f7f7, #f7f7f7);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+}
+
+.name {
+  display: flex;
+  justify-content: space-around;
+  width: 430px;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  height: 80vh;
+}
+
+.title {
+  margin: 100px 0;
+}
+
+.name > h3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 100%;
+  color: rgba(21, 37, 54, 0.8);
+}
+
+.name > button {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 36px;
+  color: #68717a;
+  border: none;
+  background-color: unset;
+}
+
+#nickname {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 36px;
+  margin-right: 35px;
+  color: #68717a;
+}
+
+.title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 96px;
+  line-height: 100%;
+  display: flex;
+  align-items: center;
+  color: rgba(21, 37, 54, 0.8);
+}
+
+.table > p {
+  height: 43px;
+  left: calc(50% - 146px / 2 - 23px);
+  top: calc(50% - 43px / 2 - 110.5px);
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(21, 37, 54, 0.8);
+}
+
+#tr {
+  left: 42.88%;
+  right: 53.3%;
+  top: 45.19%;
+  bottom: 53.06%;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 24px;
+  color: #152536;
+}
+
+table {
+  width: 500px;
+  height: 200px;
+}
+
+tr > td,
+tr > th {
+  border: none;
+  border-bottom: 2px solid;
+}
